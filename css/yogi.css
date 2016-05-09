@@ -146,6 +146,10 @@ section#header {
 	padding: 75px 0 30px;
 }
 
+footer {
+	padding: 20px 0 20px;
+	text-align: center;
+}
 
 @media(min-width:768px) {
 	section#header {
