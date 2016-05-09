@@ -1,0 +1,506 @@
+body {
+	font-family: Open Sans;
+	/*font-family: Delicious-Roman;*/
+	/*EP: Pending removal*/
+	overflow-x: hidden;
+}
+
+
+p {
+	font-size: 18px;
+	line-height: 1.75;
+}
+
+.alternative-font {
+	font-family: "Shadows Into Light", cursive;
+	font-size: 1.6em;
+	text-transform: none;
+	/* yogi-blue*/
+	color: #00adee;  
+	/* porto blue */
+	/*color: #0088cc;*/
+	/*font-family: "BPreplayBold";*/
+}
+
+
+.arrow {
+	background: transparent url(../img/arrow.png) no-repeat 0 0;
+	display: inline-block;
+	position: relative;
+	background-size: contain;
+	width: 45px;
+	height: 81px;
+}
+
+
+h2 .alternative-font {
+	font-size: 1.2em;
+}
+
+
+p .alternative-font {
+	display: inline-block;
+	margin-top: -15px;
+	position: relative;
+	top: 3px;
+	margin-bottom: -6px;
+}
+
+section h2.heading {
+    font-family: Delicious-Bold;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #3d67b1;
+}
+
+section h3.subheading {
+	font-family: Open Sans; 
+	font-size: 1.6em; 
+	line-height: 1.5em; 
+	color: #777777; 
+	margin-bottom: 60px;
+	/*margin-bottom: 75px;*/
+	/*text-transform: none;*/
+	/*font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	/*font-size: 16px;*/
+	/*font-style: italic;*/
+	/*font-weight: 400;*/
+}
+
+section h4.item-heading {
+    font-family: Delicious-Bold;
+    font-size: 20px;
+    margin: 20px 0px 12px;
+    color: #3d67b1;
+}
+
+section#contact {
+    background-color: #222;
+    background-image: url(../img/blurred_rolls.jpg);
+    /* background-image: url(../img/map-image.png); */
+    /* background-size: 100%; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+aside.amazon {
+	color: #fff;
+	background-color: #00adee;
+        font-family: "Delicious-Bold";
+	text-transform: uppercase;
+	padding: 10px 0px 25px;
+}
+
+section#wheretobuy .heading {
+	margin-bottom: 50px
+}
+
+.ltblue-bg { 
+	background-color: rgba(194, 216, 244, 0.34);
+}
+
+.blue-bg { 
+	background-color: #00adee;
+}
+
+#features h2.heading { 
+	color: #fff;
+}
+
+.pinwheel-bg {
+	background-image: url(../img/pinwheel-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn-xl {
+	padding: 18px 35px;
+	border-color: #3d67b1;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-family: "Delicious-bold";
+	/*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-size: 28px;
+	/*font-weight: 700;*/
+	color: #fff;
+	background-color: #3d67b1;
+}
+
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+	border-color: #00adee;
+	color: #fff;
+	background-color: #00adee;
+}
+
+section {
+	padding: 75px 0 75px;
+}
+
+section#header {
+	padding: 75px 0 30px;
+}
+
+
+@media(min-width:768px) {
+	section#header {
+		padding: 100px 0 65px;
+	}
+}
+
+.navbar-default {
+	background-color: #fff;
+	/*background-color: #3d67b1;*/
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #194086;
+    background-color: #3d67b1;
+}
+
+.navbar-default .navbar-toggle .collapsed { 
+    border-color: #194086;
+    background-color: #3d67b1;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #5C83C7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	border-radius: 0;
+	color: #fff;
+	background-color: #3d67b1;
+}
+
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	/*border-color: #00adee;*/
+	color: #fff;
+	/*background-color: #00adee;*/
+	background-color: #3d67b1;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #3d67b1;
+}
+
+/*Relax the top/bottom padding from BS 15px to accomodate logo*/
+nav img.navbar-brand { 
+	padding: 10px 15px;
+}
+
+.navbar-default .nav li a {
+	text-transform: uppercase;
+	font-family: "Delicious-Bold";
+	color: #3d67b1;
+}
+
+@media(min-width:768px) {
+
+    section {
+        padding: 85px 0 90px;
+    }
+
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    /*EP - Counteract 0px margin in bootstrap*/
+    .navbar-nav { 
+	margin: 7.5px -15px;
+    }
+
+    .navbar-default .navbar-brand {
+	height: 70px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+	padding: 0px 15px;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        /*background-color: #222;*/
+        /*background-color: #927500;*/
+        /*background-color: #478500;*/
+	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1) !important;
+	z-index: 99999;
+        background-color: #fff;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+    }
+}
+
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/kiwi_halfroll_side.jpg);
+    /*background-image: url(../img/yoga_girl_header.jpg);*/
+    /*background-image: url(../img/header-bg-dark.jpg);*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-text {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.intro-text .intro-lead-in {
+	font-family: "Delicious-bold";
+	font-size: 30px;
+	line-height: 44px;
+	color: #3d67b1;
+	/*text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);*/
+	padding: 8px 20px 0px;
+	margin-bottom: 25px;
+}
+
+.intro-text h1.intro-slogan {
+	color: #00adee;
+	font-family: "BPreplayBold";
+	font-size: 35px;
+}
+
+.intro-text .alternative-font {
+	font-size: 1.2em;
+}
+
+@media(min-width:768px) {
+
+	.intro-text {
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	.intro-text .intro-lead-in {
+		font-family: "Delicious-bold";
+		font-size: 40px;
+		line-height: 44px;
+		color: #3d67b1;
+		/*text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);*/
+		padding: 10px 110px 0px;
+		margin-bottom: 25px;
+	}
+
+	.intro-text h1.intro-slogan {
+		color: #00adee;
+		font-family: "BPreplayBold";
+		font-size: 45px;
+		padding-top: 10px;
+	}
+}
+
+
+
+/*Circle Features Showcase*/
+
+.circle-feature {
+    /*EP Section class already provides enough padding*/
+    /*margin-bottom: 50px;*/
+    text-align: center;
+}
+
+.circle-feature img {
+    margin: 0 auto;
+    border: 7px solid #3d67b1;
+}
+
+.circle-feature h4 {
+	font-family: "Shadows Into Light", cursive;
+	font-size: 26px;
+	text-transform: none;
+	color: #fff;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.circle-feature p {
+	margin-top: 0;
+	color: #fff;
+}
+
+img .aerial-mat { 
+	height: 325px;
+}
+
+img.wht-border {
+	border: 10px solid #fff;
+	border-radius: 6px;
+}
+
+.img-overlay {
+	width: 100%;
+	height: 160px;
+	background-color: rgba(52, 206, 218, 0.9);
+	position: absolute;
+	bottom: 0px;
+}
+
+.media-heading {
+	margin-bottom: 6px;
+}
+
+h4.media-heading {
+	font-size: 20px;
+}
+
+.bullet-point { 
+	margin: 34px 0px;
+}
+
+.media:first-child {
+    margin-top: 25px;
+}
+
+#wheretobuy .media:first-child {
+    margin-top: 40px;
+}
+
+.media-left, .media>.pull-left {
+    padding-right: 17px;
+}
+
+
+footer span.copyright {
+    /*text-transform: uppercase;*/
+    text-transform: none;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    line-height: 40px;
+    color: #3d67b1;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #3d67b1;
+    /*background-color: #222;*/
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+/*.owl-carousel .item {*/
+	/*height: 300px;*/
+	/*width: auto;*/
+/*}*/
+	
+/*.owl-carousel .owl-item {*/
+	/*height:400px;*/
+	/*[>width:100%;<]*/
+/*}*/
+
+/*.owl-carousel .item img {*/
+	/*[>height: 400px;<]*/
+	/*[>display: block;<]*/
+	/*width: auto;*/
+	/*margin: auto;*/
+/*}*/
+
+
+
+
+@font-face {
+  font-family: 'BPreplayBold';
+  src: url('../fonts/BPreplay/BPreplayBold/BPreplayBold.eot');
+  src: url('../fonts/BPreplay/BPreplayBold/BPreplayBold.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/BPreplay/BPreplayBold/BPreplayBold.woff') format('woff'), 
+  url('../fonts/BPreplay/BPreplayBold/BPreplayBold.ttf') format('truetype'), 
+  url('../fonts/BPreplay/BPreplayBold/BPreplayBold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'BPreplay';
+  src: url('../fonts/BPreplay/BPreplay/BPreplay.eot');
+  src: url('../fonts/BPreplay/BPreplay/BPreplay.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/BPreplay/BPreplay/BPreplay.woff') format('woff'), 
+  url('../fonts/BPreplay/BPreplay/BPreplay.ttf') format('truetype'), 
+  url('../fonts/BPreplay/BPreplay/BPreplay.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Delicious-Heavy';
+  src: url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.eot');
+  src: url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-Heavy/Delicious-Heavy.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Delicious-Bold';
+  src: url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.eot');
+  src: url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.svg') format('svg');
+  url('../fonts/Delicious/Delicious-Bold/Delicious-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Delicious-Italic';
+  src: url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.eot');
+  src: url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.svg') format('svg');
+  url('../fonts/Delicious/Delicious-Italic/Delicious-Italic.otf');
+}
+
+@font-face {
+  font-family: 'Delicious-BoldItalic';
+  src: url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.eot');
+  src: url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.svg') format('svg');
+  url('../fonts/Delicious/Delicious-BoldItalic/Delicious-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: 'Delicious-Roman';
+  src: url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.eot');
+  src: url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.woff') format('woff'), 
+  url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.ttf') format('truetype'), 
+  url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.svg') format('svg');
+  url('../fonts/Delicious/Delicious-Roman/Delicious-Roman.otf');
+}
+
+

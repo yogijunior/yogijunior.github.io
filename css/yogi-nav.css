@@ -1,0 +1,64 @@
+
+@media(min-width:768px) {
+
+	.navbar-nav {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.navbar-default .navbar-brand {
+		height: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.navbar-default .nav li a {
+		font-size: 1.40em;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+}
+
+@media(min-width:992px) {
+
+	.navbar-nav {
+		/*margin-top: 5px;*/
+		/*margin-bottom: 5px;*/
+		margin: 5px 0px;
+	}
+
+	.navbar-default .navbar-brand {
+		height: 60px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.navbar-default .nav li a {
+		font-size: 1.6em;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
+@media(min-width:1200px) {
+
+	.navbar-nav {
+		margin: 10px 0px;
+	}
+
+	.navbar-default .navbar-brand {
+		height: 70px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.navbar-default .nav li a {
+		font-size: 1.75em;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
