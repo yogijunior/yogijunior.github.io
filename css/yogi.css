@@ -92,6 +92,14 @@ section#contact {
 aside.amazon {
 	color: #fff;
 	background-color: #00adee;
+	font-family: "Delicious-Bold";
+	text-transform: uppercase;
+	padding: 10px 0px 25px;
+}
+
+section.amazon {
+	color: #fff;
+	background-color: #00adee;
         font-family: "Delicious-Bold";
 	text-transform: uppercase;
 	padding: 10px 0px 25px;
@@ -164,7 +172,7 @@ footer {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #194086;
+    /*border-color: #194086;*/
     background-color: #3d67b1;
 }
 

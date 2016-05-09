@@ -7,9 +7,21 @@
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
+
+	// EP - New code variable offset
+	var width = $(window).width();
+	var offset = 75;
+	if (width <= 479) {
+            offset = 50;
+        }
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - offset
         }, 1500, 'easeInOutExpo');
+
+	// Old stock code
+        //$('html, body').stop().animate({
+            //scrollTop: $($anchor.attr('href')).offset().top - 75
+        //}, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
 });
