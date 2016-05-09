@@ -117,6 +117,10 @@ section#wheretobuy .heading {
 	background-color: #00adee;
 }
 
+section.blue-bg h2.heading {
+	color: #fff;
+}
+
 #features h2.heading { 
 	color: #fff;
 }
@@ -428,6 +432,55 @@ ul.social-buttons li a {
     -moz-transition: all .3s;
     transition: all .3s;
 }
+
+a.anchor {
+	display: block;
+	position: relative;
+	top: 0px;
+	visibility: hidden;
+}
+
+a.anchorbanner {
+	display: block;
+	position: relative;
+	top: -50px;
+	visibility: hidden;
+}
+
+@media(min-width:992px) {
+	a.anchor {
+		display: block;
+		position: relative;
+		top: -60px;
+		visibility: hidden;
+	}
+
+	a.anchorbanner {
+		display: block;
+		position: relative;
+		top: -75px;
+		visibility: hidden;
+	}
+}
+
+/*@media(min-width:1200px) {*/
+	/*a.anchor {*/
+		/*display: block;*/
+		/*position: relative;*/
+		/*top: -75px;*/
+		/*visibility: hidden;*/
+	/*}*/
+/*}*/
+
+/*Experimental solution to pagescroll offset*/
+/**[id]:before { */
+	/*display: block; */
+	/*content: " "; */
+	/*margin-top: -75px; */
+	/*height: 75px; */
+	/*visibility: hidden; */
+/*}*/
+
 /*.owl-carousel .item {*/
 	/*height: 300px;*/
 	/*width: auto;*/
