@@ -9,19 +9,19 @@ $(function() {
         var $anchor = $(this);
 
 	// EP - New code variable offset
-	var width = $(window).width();
-	var offset = 75;
-	if (width <= 479) {
-            offset = 50;
-        }
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - offset
-        }, 1500, 'easeInOutExpo');
-
-	// Old stock code
+	// DEPRECATED
+	//var width = $(window).width();
+	//var offset = 75;
+	//if (width <= 479) {
+            //offset = 50;
+        //}
         //$('html, body').stop().animate({
-            //scrollTop: $($anchor.attr('href')).offset().top - 75
+            //scrollTop: $($anchor.attr('href')).offset().top - offset
         //}, 1500, 'easeInOutExpo');
+
+	$('html, body').stop().animate({
+	    scrollTop: $($anchor.attr('href')).offset().top
+	}, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
 });
