@@ -98,6 +98,10 @@ aside.amazon {
 	padding: 10px 0px 25px;
 }
 
+aside.amazon a {
+	color: #fff;
+}
+
 section.amazon {
 	color: #fff;
 	background-color: #00adee;
