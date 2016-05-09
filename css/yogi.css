@@ -124,6 +124,7 @@ section#wheretobuy .heading {
 
 section.blue-bg h2.heading {
 	color: #fff;
+	text-shadow: 0px 2px 2px rgb(17, 130, 173)
 }
 
 #features h2.heading { 
