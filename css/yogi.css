@@ -39,6 +39,7 @@ h2 .alternative-font {
 
 
 p .alternative-font {
+	font-size: 1.4em;
 	display: inline-block;
 	margin-top: -15px;
 	position: relative;
