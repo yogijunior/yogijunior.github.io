@@ -3,22 +3,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+//jQuery to collapse the navbar on scroll
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 200) {
+        $(".navbar-fixed-top").addClass("navbar-shrink");
+    } else {
+        $(".navbar-fixed-top").removeClass("navbar-shrink");
+    }
+});
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
-
-	// EP - New code variable offset
-	// DEPRECATED
-	//var width = $(window).width();
-	//var offset = 75;
-	//if (width <= 479) {
-            //offset = 50;
-        //}
-        //$('html, body').stop().animate({
-            //scrollTop: $($anchor.attr('href')).offset().top - offset
-        //}, 1500, 'easeInOutExpo');
-
 	$('html, body').stop().animate({
 	    scrollTop: $($anchor.attr('href')).offset().top
 	}, 1500, 'easeInOutExpo');
