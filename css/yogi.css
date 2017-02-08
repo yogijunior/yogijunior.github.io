@@ -260,10 +260,10 @@ nav img.navbar-brand {
 
 @media(min-width:768px) {
 
-	.navbar-nav {
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
+	/*.navbar-nav {*/
+		/*margin-top: 0px;*/
+		/*margin-bottom: 0px;*/
+	/*}*/
 
 	.navbar-default .navbar-brand {
 		height: 50px;
@@ -337,12 +337,12 @@ nav img.navbar-brand {
     }
 
     /*EP - Counteract 0px margin in bootstrap*/
-    .navbar-nav { 
-	margin: 7.5px -15px;
-    }
+    /*.navbar-nav { */
+	/*margin: 7.5px -15px;*/
+    /*}*/
 
     .navbar-default .navbar-brand {
-	height: 70px;
+	/*height: 70px;*/
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
