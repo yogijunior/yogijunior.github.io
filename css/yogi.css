@@ -226,6 +226,10 @@ footer {
     background-color: #fff;
 }
 
+.navbar-default .navbar-nav {
+	font-size: 18px;
+}
+
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
