@@ -108,6 +108,7 @@ section.amazon {
         font-family: "Delicious-Bold";
 	text-transform: uppercase;
 	padding: 10px 0px 25px;
+	border: none;
 }
 
 section#wheretobuy .heading {
@@ -132,7 +133,7 @@ section.blue-bg h2.heading {
 }
 
 .pinwheel-bg {
-	background-image: url(../img/pinwheel-strip-darker.png);
+	background-image: url(../img/pinwheel-strip-darker.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -500,8 +501,9 @@ h4.media-heading {
     margin-top: 40px;
 }
 
-.media-left, .media>.pull-left {
+.media>.pull-left {
     padding-right: 17px;
+    padding-top: 7px;
 }
 
 
