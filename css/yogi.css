@@ -73,7 +73,7 @@ section h3.subheading {
 section h4.item-heading {
     font-family: Delicious-Bold;
     font-size: 20px;
-    margin: 20px 0px 12px;
+    margin: 7px 0px 35px;
     color: #3d67b1;
 }
 
@@ -88,6 +88,10 @@ section#contact {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+section#mat-gallery {
+    padding: 85px 0 45px;
 }
 
 aside.amazon {
